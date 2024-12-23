@@ -1,0 +1,12 @@
+sources:
+  - name: dbt_db_data
+    database: dbt_db
+    schema: dbt_sc
+    tables:
+      - name: CUSTOMER
+        columns:
+          - name: id
+            tests:
+              - unique
+                  
+              

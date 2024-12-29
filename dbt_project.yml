@@ -40,3 +40,8 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+    stg:
+      +materialized: table
+      +transient: true
+      +databse: dbt_db
+      +schema1: dbt_sc_stg  

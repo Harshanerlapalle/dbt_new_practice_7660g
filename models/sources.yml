@@ -1,0 +1,6 @@
+sources:
+  - name: dbt_raw
+    database: dbt_db
+    schema: dbt_sc
+    tables: 
+      - name: customer
